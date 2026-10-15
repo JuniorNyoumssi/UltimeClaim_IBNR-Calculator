@@ -8,6 +8,6 @@ Proceeded to using VBA to automate the calculation of IBNR reserves for 30 diffe
 
 Made use of VBA for loops and If statements for the automation. 
 
-Also generated a clickable Macro that embedded the VBA function.
+Generated a clickable Macro that embedded the VBA function.
 Proceeded to carry out data validation , which was a success.
 
