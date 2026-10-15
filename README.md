@@ -1,4 +1,4 @@
-# UltimeClaim_IBNR-Calculator
+# UltimeClaim_IBNR_Calculator
 
 Created a tool that calculates both the Ultimate Expected Claims and the IBNR Reserve as per the company size (Small , Medium, Large) and claim Type (Dental, Prescription, Healthcare Appointment) , with the use of Completion factors . 
 
