@@ -1,0 +1,45 @@
+Sub IBNR()
+
+For i = 1 To 31
+
+If Sheets("Companies").Cells(i, "B").Value = 1 Then
+
+Sheets("Calculator").Cells(2, "H").Value = Sheets("Companies").Cells(i, "C").Value
+Sheets("Calculator").Cells(2, "B").Value = Sheets("Companies").Cells(i, "D").Value
+Sheets("Calculator").Cells(2, "C").Value = Sheets("Companies").Cells(i, "E").Value
+Sheets("Calculator").Cells(2, "D").Value = Sheets("Companies").Cells(i, "F").Value
+Sheets("Calculator").Cells(2, "E").Value = Sheets("Companies").Cells(i, "G").Value
+Sheets("Calculator").Cells(2, "F").Value = Sheets("Companies").Cells(i, "H").Value
+Sheets("Calculator").Cells(2, "G").Value = Sheets("Companies").Cells(i, "I").Value
+
+Sheets("Companies").Cells(i, "J").Value = Sheets("Calculator").Cells(2, "J").Value
+
+ElseIf Sheets("Companies").Cells(i, "B").Value = 2 Then
+
+Sheets("Calculator").Cells(3, "H").Value = Sheets("Companies").Cells(i, "C").Value
+Sheets("Calculator").Cells(3, "B").Value = Sheets("Companies").Cells(i, "D").Value
+Sheets("Calculator").Cells(3, "C").Value = Sheets("Companies").Cells(i, "E").Value
+Sheets("Calculator").Cells(3, "D").Value = Sheets("Companies").Cells(i, "F").Value
+Sheets("Calculator").Cells(3, "E").Value = Sheets("Companies").Cells(i, "G").Value
+Sheets("Calculator").Cells(3, "F").Value = Sheets("Companies").Cells(i, "H").Value
+Sheets("Calculator").Cells(3, "G").Value = Sheets("Companies").Cells(i, "I").Value
+
+Sheets("Companies").Cells(i, "J").Value = Sheets("Calculator").Cells(3, "J").Value
+
+
+ElseIf Sheets("Companies").Cells(i, "B").Value = 3 Then
+
+Sheets("Calculator").Cells(4, "H").Value = Sheets("Companies").Cells(i, "C").Value
+Sheets("Calculator").Cells(4, "B").Value = Sheets("Companies").Cells(i, "D").Value
+Sheets("Calculator").Cells(4, "C").Value = Sheets("Companies").Cells(i, "E").Value
+Sheets("Calculator").Cells(4, "D").Value = Sheets("Companies").Cells(i, "F").Value
+Sheets("Calculator").Cells(4, "E").Value = Sheets("Companies").Cells(i, "G").Value
+Sheets("Calculator").Cells(4, "F").Value = Sheets("Companies").Cells(i, "H").Value
+Sheets("Calculator").Cells(4, "G").Value = Sheets("Companies").Cells(i, "I").Value
+
+Sheets("Companies").Cells(i, "J").Value = Sheets("Calculator").Cells(4, "J").Value
+
+End If
+Next i
+End Sub
+
