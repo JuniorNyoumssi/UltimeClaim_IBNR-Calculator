@@ -4,8 +4,7 @@ Created a tool that calculates both the Ultimate Expected Claims and the IBNR Re
 
 Made use of Excel SUM functions , Vlookup , absolute and relative cell referencing and some cell formatting.
 
-Used VBA to automate the calculation of IBNR reserves for 30 different companies using the calculator tool I built , filling them automatically in 
-their respective cells in Excel.
+Used VBA to automate the calculation of IBNR reserves for 30 different companies in excel using the calculator tool that was built in Excel.
 
 Made use of VBA for loops and If statements for the automation. 
 
